@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/img1gapimg2"
             android:adjustViewBounds="true"
+            android:alpha="0.7"
             android:src="@drawable/udacitycourses" />
 
         <TextView
@@ -71,6 +72,7 @@
             android:layout_below="@id/company"
             android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
+            android:autoLink="map"
             android:text="@string/text_postal"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -93,6 +95,7 @@
             android:layout_below="@id/address"
             android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
+            android:autoLink="phone"
             android:text="@string/text_phone"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -104,6 +107,7 @@
             android:layout_below="@id/phone"
             android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
+            android:autoLink="web"
             android:text="@string/text_email"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceMedium" />
