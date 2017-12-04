@@ -46,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/courses"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_contact"
             android:textAlignment="center"
@@ -57,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/contact"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_company"
             android:textAlignment="center"
@@ -67,6 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/company"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_postal"
             android:textAlignment="center"
@@ -77,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/postal"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_address"
             android:textAlignment="center"
@@ -87,6 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/address"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_phone"
             android:textAlignment="center"
@@ -97,6 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/phone"
+            android:layout_marginTop="@dimen/gap"
             android:fontFamily="@font/quantico"
             android:text="@string/text_email"
             android:textAlignment="center"
@@ -108,7 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/imgview_height"
             android:layout_above="@id/footer"
-            android:layout_marginBottom="@dimen/gap"
+            android:layout_marginBottom="@dimen/gap_udacityimg"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:src="@drawable/stairs"/>
@@ -120,7 +126,7 @@
             android:layout_alignParentBottom="true"
             android:adjustViewBounds="true"
             android:scaleType="center"
-            android:src="@drawable/footer" />
+            android:src="@drawable/footer1"/>
 
         <TextView
             android:id="@+id/textgrow"
@@ -130,7 +136,7 @@
             android:fontFamily="@font/quantico"
             android:text="@string/text_phrase"
             android:gravity="center"
-            android:paddingBottom="@dimen/gap"
+            android:paddingBottom="@dimen/gap_pad"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
     </RelativeLayout>
 
