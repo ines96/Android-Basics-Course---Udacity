@@ -36,6 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/udacity"
+        android:layout_marginTop="@dimen/gap"
+        android:layout_marginLeft="@dimen/gap"
         android:fontFamily="@font/quantico"
         android:text="@string/text_contact"
         android:textSize="22sp"
@@ -48,26 +50,31 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/contact"
-        android:drawableLeft="@drawable/business"
+        android:layout_marginLeft="@dimen/gap"
+        android:drawableLeft="@drawable/ic_action_business"
         android:fontFamily="@font/quantico"
         android:text="@string/text_company"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/postal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/company"
-        android:fontFamily="@font/quantico"
-        android:text="@string/text_postal"
-        android:autoLink="map"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/postal"
+        android:layout_below="@id/company"
+        android:layout_marginLeft="@dimen/gap"
+        android:drawableLeft="@drawable/ic_action_home"
+        android:fontFamily="@font/quantico"
+        android:text="@string/text_postal"
+        android:autoLink="map"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/postal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginLeft="@dimen/gap"
+        android:drawableLeft="@drawable/ic_action_mail"
         android:fontFamily="@font/quantico"
         android:text="@string/text_address"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -76,7 +83,9 @@
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/address"
+        android:layout_below="@id/postal"
+        android:layout_marginLeft="@dimen/gap"
+        android:drawableLeft="@drawable/ic_action_phone"
         android:fontFamily="@font/quantico"
         android:text="@string/text_phone"
         android:autoLink="phone"
@@ -87,6 +96,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/phone"
+        android:layout_marginLeft="@dimen/gap"
+        android:drawableLeft="@drawable/ic_action_mail"
         android:fontFamily="@font/quantico"
         android:text="@string/text_email"
         android:autoLink="web"
@@ -95,32 +106,28 @@
 
     <ImageView
         android:id="@+id/udacityimg"
-        android:layout_width="@dimen/imgview_width"
-        android:layout_height="@dimen/imgview_height"
-        android:layout_toRightOf="@id/email"
-        android:layout_above="@id/footer"
-        android:adjustViewBounds="true"
-        android:src="@drawable/stairs"/>
+        android:layout_width="@dimen/imgview_stairs_width"
+        android:layout_height="@dimen/imgview_stairs_height"
+        android:layout_marginLeft="@dimen/gap"
+        android:layout_above="@+id/address"
+        android:layout_toEndOf="@+id/contact"
+        android:layout_toRightOf="@+id/contact"
+        android:src="@drawable/stairs" />
 
-    <ImageView
-        android:id="@+id/footer"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/footer1"/>
-
-    <TextView
-        android:id="@+id/textgrow"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:fontFamily="@font/quantico"
+        android:layout_below="@id/email"
         android:text="@string/text_phrase"
+        android:background="@drawable/button_shape"
+        android:textSize="10sp"
+        android:drawableRight=""
+        android:layout_marginLeft="@dimen/gap_buttonLeft"
+        android:layout_marginTop="@dimen/gap_pad"
+        android:fontFamily="@font/quantico"
         android:gravity="center"
-        android:paddingBottom="@dimen/gap_pad"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
 
