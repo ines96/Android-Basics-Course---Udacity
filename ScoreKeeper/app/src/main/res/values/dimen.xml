@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_pad">4dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="reset_bottom_marg">32dp</dimen>
+    <dimen name="team_textsize">20sp</dimen>
+    <dimen name="display_titles_textsize">15sp</dimen>
+    <dimen name="teamscore_textsize">18sp</dimen>
+    <dimen name="margintop_teamname">12dp</dimen>
+    <dimen name="between_score_button">6dp</dimen>
+    <dimen name="margin_left_right_buttons">24dp</dimen>
+    <dimen name="divide_team_score_margintop">16dp</dimen>
+    <dimen name="score_display_margin_bottom">16dp</dimen>
+    <dimen name="margin_top_button_score_display">6dp</dimen>
+</resources>

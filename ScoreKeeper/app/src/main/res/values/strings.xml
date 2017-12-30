@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="yellow_text">Yellows</string>
+    <string name="red_text">Reds</string>
+    <string name="fouls">Fouls</string>
+    <string name="teamA_score">0</string>
+    <string name="teamB_score">0</string>
+    <string name="teamA_yellow">0</string>
+    <string name="teamB_yellow">0</string>
+    <string name="teamA_red">0</string>
+    <string name="teamB_red">0</string>
+    <string name="teamA_fouls">0</string>
+    <string name="teamB_fouls">0</string>
+    <string name="goal">goal</string>
+    <string name="foul">foul</string>
+    <string name="yellow_card">yellow card</string>
+    <string name="red_card">red card</string>
+    <string name="score">Score</string>
+    <string name="action_settings">Settings</string>
+</resources>
