@@ -12,6 +12,7 @@ public class Phrases extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
@@ -26,7 +27,7 @@ public class Phrases extends AppCompatActivity {
         words.add(new Word("Let’s go.", "yoowutis"));
         words.add(new Word("Come here.", "әnni'nem"));
 
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
