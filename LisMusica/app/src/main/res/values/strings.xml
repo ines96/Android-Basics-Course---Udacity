@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LisMusica</string>
+    <string name="contact">Tune in with Us:</string>
+    <string name="business">Lismúsica</string>
+    <string name="postal">1170-193 Lisboa</string>
+    <string name="address">Jose Falcao Street, 6A</string>
+    <string name="phone">218122934</string>
+    <string name="email">lismusica@lismusica.pt</string>
+    <string name="orders_email">encomendas@lismusica.pt</string>
+    <string name="hours1">Mon-Fri: 10am-7:30pm</string>
+    <string name="hours2">Saturday: 10am-1pm</string>
+    <string name="hours3">Closed on Sundays</string>
+    <string name="check">Scroll down to see more</string>
+</resources>

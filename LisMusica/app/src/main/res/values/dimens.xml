@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin_logo">95dp</dimen>
+    <dimen name="top_margin">20dp</dimen>
+    <dimen name="font_size">17sp</dimen>
+    <dimen name="padding_sizelr">12dp</dimen>
+    <dimen name="padding_sizetb">6dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="text_layout_width">235dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+</resources>

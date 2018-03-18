@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">40dp</dimen>
+    <dimen name="margin_title">16dp</dimen>
+    <dimen name="margin_questions">10dp</dimen>
+    <dimen name="padding_questions">3dp</dimen>
+    <dimen name="margin_right">26dp</dimen>
+    <dimen name="margintop_questions">16dp</dimen>
+    <dimen name="marginbottom_questions">8dp</dimen>
+    <dimen name="questions_size">18sp</dimen>
+    <dimen name="margin_button">24dp</dimen>
+    <dimen name="button_submit_height">45dp</dimen>
+    <dimen name="button_submit_width">160dp</dimen>
+    <dimen name="button_scrolltop_hw">40dp</dimen>
+    <dimen name="scroll_textsize">16sp</dimen>
+    <dimen name="scroll_button">10dp</dimen>
+</resources>

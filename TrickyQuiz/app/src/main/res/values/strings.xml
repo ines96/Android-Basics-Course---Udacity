@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TrickyQuiz</string>
+    <string name="quiz_title">Tricky Quiz</string>
+    <string name="question1">1. What is as light as a feather but even the strongest person in
+        the world can\'t even hold for a few minutes?</string>
+    <string name="question2">2. If you pass the 2nd person in a race what will You be coming</string>
+    <string name="question3">3. How far can you walk into the woods?</string>
+    <string name="question4">4. Imagine you are in a sinking rowboat surrounded by sharks.
+        How do you get out alive?</string>
+    <string name="question5">5. Which of this is a Disney Character?</string>
+    <string name="question6">6. Which month has 28 days?</string>
+    <string name="question7">7. If an electric train is traveling south,
+        which way is the smoke going?</string>
+    <string name="question8">8. Which is heavier a ton of gold or a ton of silver?</string>
+    <string name="answer11">A smile</string>
+    <string name="answer12">His breath</string>
+    <string name="answer13">A baby</string>
+    <string name="answer14">A feather</string>
+    <string name="answer31">3 quarters</string>
+    <string name="answer32">As far as you want</string>
+    <string name="answer33">Halfway</string>
+    <string name="answer34">All the way and then back again</string>
+    <string name="answer41">You couldn\'t, the sharks will eat you</string>
+    <string name="answer42">Stop Imagining</string>
+    <string name="answer43">Jump in the water</string>
+    <string name="answer44">Fly away in a helicopter</string>
+    <string name="answer51">Johnny Bravo</string>
+    <string name="answer52">Rocky Balboa</string>
+    <string name="answer53">Minie</string>
+    <string name="answer54">Buzz Lightyear</string>
+    <string name="answer61">None</string>
+    <string name="answer62">Februlary</string>
+    <string name="answer63">First 6 months of the year</string>
+    <string name="answer64">Last 6 months of the year</string>
+    <string name="answer71">West</string>
+    <string name="answer72">North</string>
+    <string name="answer73">Neither</string>
+    <string name="answer74">Both</string>
+    <string name="answer81">Silver</string>
+    <string name="answer82">Gold</string>
+    <string name="answer83">Bronze</string>
+    <string name="answer84">Equal</string>
+    <string name="description">First, Second, Third, Forth ...</string>
+    <string name="submit_button">Submit</string>
+    <string name="scroll_button">Up</string>
+</resources>

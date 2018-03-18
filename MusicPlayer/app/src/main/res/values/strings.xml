@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="category_now">Now Playing</string>
+    <string name="category_artists">Artists List</string>
+    <string name="category_albums">Albums List</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_search">Music Search</string>
+    <string name="music_search">Enter song title</string>
+    <string name="logo">Logo</string>
+</resources>

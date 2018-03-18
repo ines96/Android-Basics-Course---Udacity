@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/ic_queue_music"
+        android:width="@dimen/action_icon_queue_size"
+        android:height="@dimen/action_icon_queue_size"/>
+</layer-list>

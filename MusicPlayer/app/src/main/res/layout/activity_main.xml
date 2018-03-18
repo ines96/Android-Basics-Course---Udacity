@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.musicplayer.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/header"
+        android:src="@drawable/logo"
+        android:adjustViewBounds="true"
+        style="@style/HeaderStyle"
+        android:contentDescription="@string/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/now_text_view"
+            android:layout_height="match_parent"
+            android:background="@color/colorOddRow"
+            android:drawableLeft="@drawable/drawable_icon_action_music"
+            android:drawableStart="@drawable/drawable_icon_action_music"
+            android:text="@string/category_songs"
+            tools:fontFamily="sans-serif-condensed"
+            style="@style/CategoryStyle"/>
+
+        <TextView
+            android:id="@+id/details_text_view"
+            android:background="@color/colorEvenRow"
+            android:drawableLeft="@drawable/drawable_icon_search"
+            android:drawableStart="@drawable/drawable_icon_search"
+            android:text="@string/category_search"
+            tools:fontFamily="sans-serif-condensed"
+            style="@style/CategoryStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/search_text_view"
+            android:background="@color/colorEvenRow"
+            android:drawableLeft="@drawable/drawable_icon_person"
+            android:drawableStart="@drawable/drawable_icon_person"
+            android:text="@string/category_artists"
+            tools:fontFamily="sans-serif-condensed"
+            style="@style/CategoryStyle"/>
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            android:background="@color/colorOddRow"
+            android:drawableLeft="@drawable/drawable_icon_album"
+            android:drawableStart="@drawable/drawable_icon_album"
+            android:text="@string/category_albums"
+            tools:fontFamily="sans-serif-condensed"
+            style="@style/CategoryStyle"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            tools:fontFamily="sans-serif-condensed"
+            tools:targetApi="jelly_bean"
+            style="@style/NowPlaying"/>
+    </RelativeLayout>
+</LinearLayout>
+
