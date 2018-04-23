@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#06135b</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="background">#06135b</color>
+    <!-- Background color for the attractions category -->
+    <color name="activity_attractions">#b8b5f9</color>
+
+    <!-- Background color for the monuments category -->
+    <color name="activity_monuments">#8ce2fa</color>
+
+    <!-- Background color for the restaurants category -->
+    <color name="activity_restaurants">#e8a0f7</color>
+
+    <!-- Background color for the viewpoints category -->
+    <color name="activity_viewpoints">#6a85ff</color>
+</resources>

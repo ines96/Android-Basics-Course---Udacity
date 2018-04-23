@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Porto Tour Guide</string>
+
+    <string name="category_attraction">Attractions</string>
+    <string name="category_monument">Monuments</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_viewpoint">Viewpoints</string>
+
+    <string name="titulo">Lhau! Lhau! Maria!</string>
+    <string name="titulo01">Igreja Santa Clara</string>
+    <string name="titulo02">Cais da Ribeira</string>
+
+    <string name="phone">00351225887785</string>
+    <string name="phone01">00351225887715</string>
+    <string name="phone02">00351224444444</string>
+
+    <string name="hours">Opened: 12:00 to 15:30 - 19:00 to 23:00</string>
+
+    <string name="foodtype">FoodType: Portuguese</string>
+
+    <string name="se_viewpoint">Sé Cathedral</string>
+    <string name="serra_viewpoint">Serra Pilar</string>
+    <string name="torre_viewpoint">Clérigos Tower</string>
+    <string name="vitoria_viewpoint">Vitória</string>
+    <string name="jardimCristal_viewpoint">Cristal Garden Palace</string>
+    <string name="passeio_viewpoint">Passeio das Virtudes</string>
+    <string name="jardimMorro_viewpoint">Morro Garden</string>
+    <string name="bandeirinha_viewpoint">Bandeirinha da Saúde</string>
+
+    <string name="cais_att">Ribeira Pier</string>
+    <string name="parque_att">Porto City Park</string>
+    <string name="ponte_luis_att">Dom Luis Bridge</string>
+    <string name="ponte_arrabida_att">Arrabida Bridge</string>
+    <string name="ponte_maria_att">Dona Maria Bridge</string>
+    <string name="ponte_freixo_att">Freixo Bridge</string>
+    <string name="ponte_infante_att">Infante Bridge</string>
+    <string name="ponte_sjoao_att">São João Bridge</string>
+
+    <string name="casa_musica_mon">Casa da Música</string>
+    <string name="dragao_mon">Dragão Stadium</string>
+    <string name="igreja_sclara_mon">Santa Clara Church</string>
+    <string name="dpedro_mon">Dom Pedro Monument</string>
+    <string name="mosteiro_mon">Serra do Pilar Monastery</string>
+    <string name="se_mon">Sé Cathedral</string>
+    <string name="torre_mon">Clérigos Tower</string>
+    <string name="palacio_bolsa_mon">Bolsa Palace</string>
+
+    <string name="cafeina_res">Cafeína</string>
+    <string name="costume_res">Costume Bistrô</string>
+    <string name="abadia_res">Abadia do Porto</string>
+    <string name="porto_novo_res">Porto Novo</string>
+    <string name="portucale_res">Portucale</string>
+    <string name="cruel_res">Cruel</string>
+    <string name="madureira_res">Madureira</string>
+    <string name="taberna_res">Taberna dos Mercadores</string>
+
+    <string name="portuguese_food">Portuguese Food</string>
+
+    <string name="phone1">00351225789789</string>
+    <string name="phone2">00351225216332</string>
+    <string name="phone3">00351226311177</string>
+    <string name="phone4">00351221441222</string>
+    <string name="phone5">00351221111111</string>
+    <string name="phone6">00351223666332</string>
+    <string name="phone7">00351229996658</string>
+    <string name="phone8">00351224447444</string>
+
+    <string name="phone9">00351224417474</string>
+    <string name="phone10">00351226565656</string>
+    <string name="phone11">00351222111444</string>
+    <string name="phone12">00351222333666</string>
+    <string name="phone13">00351229889988</string>
+    <string name="phone14">00351221414141</string>
+    <string name="phone15">00351228589555</string>
+    <string name="phone16">00351221144778</string>
+
+   <string name="hours1">Opened: 10h00 to 18h00</string>
+</resources>

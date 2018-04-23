@@ -15,4 +15,6 @@
 <resources>
     <!-- Height of each list item -->
     <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_hw">24dp</dimen>
+    <dimen name="list_item_marginRight">24dp</dimen>
 </resources>
