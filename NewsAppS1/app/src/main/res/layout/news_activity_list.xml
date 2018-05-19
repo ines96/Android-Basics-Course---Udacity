@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/padding_margins"
+    android:paddingLeft="@dimen/padding_margins"
+    android:paddingRight="@dimen/padding_margins"
+    android:paddingStart="@dimen/padding_margins">
+
+    <ImageView
+        android:id="@+id/portuguese_flag"
+        android:layout_width="@dimen/layout_width_icon"
+        android:layout_height="@dimen/layout_width_icon"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/flag"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_width_title"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/padding_margins"
+        android:layout_marginStart="@dimen/padding_margins"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/colorT"
+            android:textSize="@dimen/text_size_title"
+            tools:text="@string/title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/padding_margins"
+        android:layout_marginStart="@dimen/padding_margins"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/section_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/colorT"
+            android:textSize="@dimen/text_size"
+            tools:text="@string/section_name" />
+
+        <TextView
+            android:id="@+id/date_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/colorT"
+            android:textSize="@dimen/text_size"
+            tools:text="@string/date_publish" />
+
+
+    </LinearLayout>
+</LinearLayout>
