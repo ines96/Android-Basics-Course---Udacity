@@ -1,0 +1,54 @@
+<resources>
+    <!-- The name of the APP -->
+    <string name="app_name">News From Portugal</string>
+
+    <!-- The title of the article [NEWS_ACTIVITY] -->
+    <string name="title">Long placeholder title of the news that should wrap to more than 2 lines of text</string>
+
+    <!-- The section to where the article belongs [NEWS_ACTIVITY] -->
+    <string name="section_name">Travel</string>
+
+    <!-- The date of publishment of the article [NEWS_ACTIVITY] -->
+    <string name="date_publish">Mar 6, 2010</string>
+
+    <!-- Text to display in the list when there are no articles -->
+    <string name="no_articles">No articles found.</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">NewsApp Settings</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_articles_value</string>
+
+    <string name="settings_order_by_newest_articles_label">Newest</string>
+    <string name="settings_order_by_newest_articles_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_oldest_articles_label">Oldest</string>
+    <string name="settings_order_by_oldest_articles_value" translatable="false">oldest</string>
+
+    <string name="settings_order_by_relevance_articles_label">Relevance</string>
+    <string name="settings_order_by_relevance_articles_value" translatable="false">relevance</string>
+
+    <string name="settings_sec_australia_label">Australia news</string>
+    <string name="settings_sec_australia_value" translatable="false">australia-news</string>
+
+    <string name="settings_sec_media_network_label">Media Network</string>
+    <string name="settings_sec_media_network_value" translatable="false">media-network</string>
+
+    <string name="settings_sec_movies_label">Film</string>
+    <string name="settings_sec_movies_value" translatable="false">film</string>
+
+    <string name="settings_sec_label">Section</string>
+    <string name="settings_sec_articles_key" translatable="false">section</string>
+    <string name="settings_sec_articles_default" translatable="false">@string/settings_sec_all_articles_value</string>
+
+    <string name="settings_sec_all_articles_label">All</string>
+    <string name="settings_sec_all_articles_value" translatable="false"></string>
+</resources>

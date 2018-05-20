@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_height">0dp</dimen>
+    <dimen name="layout_width_title">0dp</dimen>
+    <dimen name="layout_width_icon">36dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="padding_margins">16dp</dimen>
+</resources>
