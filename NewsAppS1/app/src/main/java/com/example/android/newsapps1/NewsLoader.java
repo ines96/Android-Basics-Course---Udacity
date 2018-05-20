@@ -16,7 +16,7 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
     /* URL for article data from the Guardian API */
     private static final String GUARDIAN_REQUEST_URL =
-            "https://content.guardianapis.com/search?q=portugal&api-key=513f2f9d-fc27-4c3d-8890-963b94a88c79";
+            "https://content.guardianapis.com/search?q=portugal&api-key=513f2f9d-fc27-4c3d-8890-963b94a88c79&show-tags=contributor";
 
 
     /**

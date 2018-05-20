@@ -26,17 +26,31 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-
         <TextView
             android:id="@+id/news_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="3"
+            android:maxLines="2"
             android:textColor="@color/colorT"
             android:textSize="@dimen/text_size_title"
             tools:text="@string/title" />
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/written_by"
+                style="@style/txtsecstyle"
+                android:text="Written by:"/>
+
+            <TextView
+                android:id="@+id/author_text_view"
+                style="@style/txtsecstyle"
+                android:textColor="@color/colorPrimary"
+                tools:text="Author"
+                android:layout_toRightOf="@id/written_by"/>
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +78,5 @@
             android:textColor="@color/colorT"
             android:textSize="@dimen/text_size"
             tools:text="@string/date_publish" />
-
-
     </LinearLayout>
 </LinearLayout>

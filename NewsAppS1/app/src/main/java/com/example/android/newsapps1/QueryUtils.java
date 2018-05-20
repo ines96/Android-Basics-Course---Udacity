@@ -96,7 +96,7 @@ public final class QueryUtils {
                 Log.e(LOG_TAG, "Error response code: " + urlConnection.getResponseCode());
             }
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Problem retrieving the earthquake JSON results.", e);
+            Log.e(LOG_TAG, "Problem retrieving the article JSON results.", e);
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();
@@ -171,16 +171,25 @@ public final class QueryUtils {
                 // Extract the value for the key called "url"
                 String url = currentArticle.getString("webUrl");
 
+                JSONArray tagsauthor = currentArticle.getJSONArray("tags");
+                String author="";
+                if (tagsauthor.length()!= 0) {
+                    JSONObject currenttagsauthor = tagsauthor.getJSONObject(0);
+                    author = currenttagsauthor.getString("webTitle");
+                }else{
+                    author = "No Author ..";
+                }
+
                 // Create a new {@link News} object with the title, section, publishDate,
                 // and url from the JSON response.
-                News article = new News(title, section, publishDate, url);
+                News article = new News(title, section, publishDate, url, author);
 
                 // Add the new {@link News} to the list of articles.
                 articles.add(article);
             }
 
         } catch (JSONException e) {
-            Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
+            Log.e("QueryUtils", "Problem parsing the articles JSON results", e);
         }
 
         // Return the list of articles

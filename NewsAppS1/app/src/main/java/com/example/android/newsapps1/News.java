@@ -14,6 +14,8 @@ public class News {
     /** Website URL of the article */
     private String mUrl;
 
+    private String mAuthor;
+
 
     /**
      * Constructs a new {@link News} object.
@@ -23,11 +25,12 @@ public class News {
      * @param publishDate is the date in which the article was published
      * @param url is the website URL to find the whole article.
      */
-    public News(String title, String section, String publishDate, String url) {
-        mTitle = title;
-        mSection = section;
-        mPublishDate = publishDate;
-        mUrl = url;
+    public News(String title, String section, String publishDate, String url, String mAuthor) {
+        this.mTitle = title;
+        this.mSection = section;
+        this.mPublishDate = publishDate;
+        this.mUrl = url;
+        this.mAuthor = mAuthor;
     }
 
     /**
@@ -56,5 +59,12 @@ public class News {
      */
     public String getUrl() {
         return mUrl;
+    }
+
+    /**
+     * Returns the author of the article.
+     */
+    public String getmAuthor() {
+        return mAuthor;
     }
 }

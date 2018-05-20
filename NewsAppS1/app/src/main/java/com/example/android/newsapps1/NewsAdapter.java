@@ -63,6 +63,11 @@ public class NewsAdapter extends ArrayAdapter<News> {
         // Display the article publish date of the current article in that TextView
         publishView.setText(date);
 
+        TextView newsAuthortextView = (TextView) listItemView.findViewById(R.id.author_text_view);
+        String author = currentArticle.getmAuthor();
+        newsAuthortextView.setText(author);
+
+
         // Return the list item view that is now showing the appropriate data
         return listItemView;
     }
