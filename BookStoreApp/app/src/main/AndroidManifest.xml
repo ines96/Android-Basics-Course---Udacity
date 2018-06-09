@@ -18,12 +18,24 @@
         </activity>
         <activity
             android:name=".EditorActivity"
-            android:label="@string/editor_activity_title_new_book"
+            android:label="@string/editor_activity_title_edit_book"
             android:theme="@style/EditorTheme"
             android:parentActivityName=".CatalogActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CatalogActivity" />
         </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/book_details"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+        </activity>
+        <provider
+            android:name=".data.BookProvider"
+            android:authorities="com.example.android.bookstoreapp"
+            android:exported="false" />
     </application>
 </manifest>

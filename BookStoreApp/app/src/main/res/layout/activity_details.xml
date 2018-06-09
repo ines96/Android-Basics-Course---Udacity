@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLinearLayoutViewStyle"
+    tools:context="com.example.android.bookstoreapp.DetailActivity">
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle">
+        <RelativeLayout
+            style="@style/RelativeLayoutStyle">
+            <TextView
+                android:id="@+id/book_title_text"
+                style="@style/TextViewStyle"
+                android:text="@string/book_title" />
+
+            <TextView
+                android:id="@+id/book_title_view"
+                style="@style/ViewStyle"
+                android:layout_toEndOf="@id/book_title_text"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle">
+        <RelativeLayout
+            style="@style/RelativeLayoutStyle">
+            <TextView
+                android:id="@+id/book_price_text"
+                style="@style/TextViewStyle"
+                android:text="@string/book_price" />
+
+            <TextView
+                android:id="@+id/book_price_view"
+                style="@style/ViewStyle"
+                android:layout_toEndOf="@id/book_price_text"/>
+
+            <TextView
+                style="@style/CurrencyViewStyle"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle">
+        <RelativeLayout
+            style="@style/RelativeLayoutStyle">
+            <TextView
+                android:id="@+id/book_quantity_text"
+                style="@style/TextViewStyle"
+                android:text="@string/book_quantity" />
+
+            <LinearLayout
+                style="@style/LinearLayoutIncDecButtonsStyle">
+                <Button
+                    android:id="@+id/decrease_button"
+                    android:text="@string/decrease_quantity"
+                    style="@style/DecreaseIncreaseQuantityButtonsStyle"/>
+
+                <TextView
+                    android:id="@+id/book_quantity_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="@dimen/margin_details_views"
+                    android:layout_marginEnd="@dimen/margin_details_views"
+                    android:paddingStart="@dimen/padding_details_views"
+                    android:paddingEnd="@dimen/padding_details_views" />
+
+                <Button
+                    android:id="@+id/increase_button"
+                    android:text="@string/increase_quantity"
+                    style="@style/DecreaseIncreaseQuantityButtonsStyle"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle">
+        <RelativeLayout
+            style="@style/RelativeLayoutStyle">
+            <TextView
+                android:id="@+id/book_supplier_name_text"
+                style="@style/TextViewStyle"
+                android:text="@string/book_supplier_name" />
+
+            <TextView
+                android:id="@+id/book_supplier_name_view"
+                style="@style/ViewStyle"
+                android:layout_toEndOf="@id/book_supplier_name_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle">
+        <RelativeLayout
+            style="@style/RelativeLayoutStyle">
+            <TextView
+                android:id="@+id/book_supplier_phone_text"
+                style="@style/TextViewStyle"
+                android:text="@string/book_supplier_phone" />
+
+            <TextView
+                android:id="@+id/book_supplier_phone_view"
+                style="@style/ViewStyle"
+                android:layout_toEndOf="@id/book_supplier_phone_text"/>
+
+            <Button
+                android:id="@+id/phone_button"
+                style="@style/DetailsCallButtonStyle"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutViewStyle"
+        android:gravity="center">
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_marginTop="6dp"
+            android:padding="12dp"
+            style="@style/DetailsDeleteButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

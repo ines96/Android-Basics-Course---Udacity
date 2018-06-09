@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Margin around the floating action button in CatalogActivity -->
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">8dp</dimen>
+    <dimen name="activity_padding">12dp</dimen>
+    <dimen name="padding_top_empty_view">16dp</dimen>
+    <dimen name="padding_top_empty_view2">8dp</dimen>
+    <dimen name="product_margin">10dp</dimen>
+    <dimen name="item_width">60dp</dimen>
+    <dimen name="item_height">80dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
 
-    <!-- Common margin value used throughout the app -->
-    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="button_sale_edit_margin_top">5dp</dimen>
+    <dimen name="button_call_margin_right">5dp</dimen>
+
+    <dimen name="button_edit_width">45dp</dimen>
+
+    <dimen name="button_call_width">40dp</dimen>
+    <dimen name="button_call_height">45dp</dimen>
+
+    <dimen name="padding_del_details">12dp</dimen>
+    <dimen name="button_del_height">45dp</dimen>
+
+    <dimen name="padding_details_views">16dp</dimen>
+    <dimen name="padding_details_text">12dp</dimen>
+
+    <dimen name="margin_details_text">6dp</dimen>
+    <dimen name="margin_details_views">6dp</dimen>
+
+    <dimen name="margin_quantity_buttons_view">24dp</dimen>
+
+    <dimen name="de_increase_width_height">34dp</dimen>
+
+    <dimen name="margin_right_price_currency">14dp</dimen>
+    <dimen name="padding_views">8dp</dimen>
+
+    <dimen name="details_title_margin_bottom">20dp</dimen>
+    <dimen name="details_title_padding">6dp</dimen>
+
+    <dimen name="details_height_view">40dp</dimen>
+
+    <dimen name="padding_left_editor_textviews">4dp</dimen>
+    <dimen name="padding_main">20dp</dimen>
+    <dimen name="margin_main">8dp</dimen>
 </resources>

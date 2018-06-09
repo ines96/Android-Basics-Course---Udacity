@@ -20,9 +20,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingTop">16dp</item>
+        <item name="android:padding">@dimen/padding_details_text</item>
         <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
 
@@ -30,7 +29,6 @@
     <style name="EditorFieldStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
@@ -38,7 +36,7 @@
     <style name="EditorUnitsStyle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
         <item name="android:paddingRight">14dp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
@@ -48,7 +46,112 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <style name="ButtonEditStyle">
+        <item name="android:layout_width">@dimen/button_edit_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_below">@id/textview_quantity</item>
+        <item name="android:focusable">false</item>
+        <item name="android:drawableStart">@drawable/ic_edit</item>
+    </style>
+
+    <style name="ButtonSaleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toStartOf">@+id/edit_button</item>
+        <item name="android:layout_below">@id/textview_quantity</item>
+        <item name="android:drawableStart">@drawable/ic_add_shopping_cart</item>
+        <item name="android:focusable">false</item>
+        <item name="android:text">@string/sell_btn</item>
+    </style>
+
+    <style name="DetailsDeleteButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_del_height</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@color/detailsText</item>
+        <item name="android:drawableStart">@drawable/ic_delete</item>
+        <item name="android:padding">@dimen/padding_del_details</item>
+        <item name="android:text">@string/delete</item>
+    </style>
+
+    <style name="DetailsCallButtonStyle">
+        <item name="android:layout_width">@dimen/button_call_width</item>
+        <item name="android:layout_height">@dimen/button_call_height</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">@dimen/button_call_margin_right</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:drawableStart">@drawable/ic_phone_forwarded</item>
+        <item name="android:padding">@dimen/padding_del_details</item>
+    </style>
+
+    <style name="MainLinearLayoutViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/margin_main</item>
+        <item name="android:padding">@dimen/activity_padding</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_views</item>
+        <item name="android:layout_marginTop">@dimen/margin_main</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DecreaseIncreaseQuantityButtonsStyle">
+        <item name="android:layout_width">@dimen/de_increase_width_height</item>
+        <item name="android:layout_height">@dimen/de_increase_width_height</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/detailsText</item>
+    </style>
+
+    <style name="RelativeLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_details_text</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="ViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/details_height_view</item>
+        <item name="android:paddingStart">@dimen/padding_details_text</item>
+        <item name="android:layout_marginTop">@dimen/padding_details_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="LinearLayoutIncDecButtonsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toEndOf">@id/book_quantity_text</item>
+        <item name="android:layout_marginStart">@dimen/margin_quantity_buttons_view</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="CurrencyViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/margin_right_price_currency</item>
+        <item name="android:layout_marginLeft">@dimen/margin_details_views</item>
+        <item name="android:layout_toEndOf">@id/book_price_view</item>
+        <item name="android:padding">@dimen/padding_details_text</item>
+        <item name="android:text">@string/book_price_cur</item>
     </style>
 </resources>

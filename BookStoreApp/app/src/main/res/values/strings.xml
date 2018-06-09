@@ -1,33 +1,90 @@
 <resources>
     <string name="app_name">Book Store</string>
 
+    <string name="default_book_title">book title</string>
+
+    <string name="product_quantity_title">Quantity:</string>
+    <string name="default_book_quantity">book quantity</string>
+
+    <string name="product_price_title">Price:</string>
+    <string name="default_book_price">book price</string>
+
+    <string name="sell_btn">Sell Book</string>
+    <string name="book_sell_failed">Book selling failed</string>
+
+    <string name="increase_quantity">+</string>
+    <string name="decrease_quantity">-</string>
+
+    <string name="book_details_editor">Book Details Editor</string>
+    <string name="book_details">Book Details</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_price">Price</string>
+    <string name="book_price_cur">€</string>
+    <string name="book_quantity">Quantity</string>
+    <string name="book_supplier_name">Supplier Name</string>
+    <string name="book_supplier_phone">Supplier Phone Number</string>
+
+    <string name="empty_view_title_text">Feeling lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
     <string name="editor_activity_title_new_book">Add a Book</string>
+    <string name="editor_activity_title_edit_book">Edit Book Data</string>
+
+    <string name="editor_insert_book_successful">Book saved</string>
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <string name="editor_update_book_successful">Book updated</string>
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <string name="delete_dialog_msg">Delete this book?</string>
+    <string name="dialog_delete_all">Delete All Books?</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="quantity_btns_changed_msg">Book quantity has been changed</string>
+    <string name="quantity_btns_outofstock_msg">Unfortunately, Book is out of stock, Try tomorrow!</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
 
     <string name="action_save">Save</string>
-
     <string name="action_delete">Delete</string>
-
-    <string name="action_insert_book_data">Insert Book Data</string>
-
+    <string name="action_insert_book_data">Insert Dummy Data</string>
     <string name="action_delete_all_entries">Delete All Books</string>
 
-    <string name="category_overview">Overview</string>
-
+    <string name="category_book_title">Book Title</string>
+    <string name="category_supplier_name">Supplier</string>
+    <string name="category_supplier_phone">Supplier Phone</string>
     <string name="category_quantity">Quantity</string>
-
     <string name="category_price">Price</string>
 
-    <string name="hint_book_name">Title</string>
-
+    <string name="hint_book_title">Title</string>
     <string name="hint_supplier_name">Supplier Name</string>
-
-    <string name="hint_supplier_contact">Supplier Contact</string>
-
+    <string name="hint_supplier_phone">Supplier PhoneNumber</string>
     <string name="hint_book_price">Price</string>
-
     <string name="hint_book_amount">Amount</string>
 
     <string name="unit_books">units</string>
-
     <string name="unit_euro_price">€</string>
+
+    <string name="email_to">Order for</string>
+    <string name="greetings">Hello, </string>
+    <string name="order">I would like to place an order for the following </string>
+    <string name="books_name">Books:</string>
+    <string name="thanks">Thank you very much!</string>
+
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_bertrand">Amazon</string>
+    <string name="supplier_library">Library</string>
+
+    <string name="all_fields_require">Fill all fields in the form to add a book</string>
+    <string name="book_title_required">Book title is required</string>
+    <string name="book_price_required">Book price is required</string>
+    <string name="book_quantity_required">Book quantity is required</string>
+    <string name="book_supplier_name_required">Book supplier is required select one supplier</string>
+    <string name="book_supplier_phone_required">Book supplier phone is required</string>
 </resources>

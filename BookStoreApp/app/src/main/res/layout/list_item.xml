@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item in the list of books -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_padding">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="@string/default_book_title" />
+
+
+    <TextView
+        android:id="@+id/textview_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="@dimen/product_margin"
+        android:layout_marginTop="@dimen/product_margin"
+        android:padding="@dimen/padding_details_text"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="@string/default_book_quantity" />
+
+
+    <TextView
+        android:id="@+id/textview_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/product_margin"
+        android:layout_below="@id/textview_quantity"
+        android:padding="@dimen/padding_details_text"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="@string/default_book_price" />
+
+    <Button
+        android:id="@+id/sell_button"
+        style="@style/ButtonSaleStyle" />
+
+    <Button
+        android:id="@+id/edit_button"
+        style="@style/ButtonEditStyle" />
+
+</RelativeLayout>
